@@ -22,8 +22,8 @@ A simple Python-based command-line tool for managing the Linux firewall (UFW) an
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-cd YOUR-REPO-NAME
+git clone https://github.com/aradhyat369/linux-firewall-manager.git
+cd linux-firewall-manager
 ```
 
 No external Python packages are required — the script only uses the standard library (`os`).
@@ -33,7 +33,7 @@ No external Python packages are required — the script only uses the standard l
 Run the script with Python 3. Since it executes `sudo` commands, you'll be prompted for your password when a privileged action is run:
 
 ```bash
-python3 firewall_tool.py
+python3 linuxFirewall.py
 ```
 
 You'll see a menu like this:
@@ -76,7 +76,3 @@ The tool wraps two native Linux utilities:
 ## Disclaimer
 
 This is a personal/educational project for learning firewall administration and Python scripting. Use responsibly and only on systems you own or have explicit permission to manage.
-
-## License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
